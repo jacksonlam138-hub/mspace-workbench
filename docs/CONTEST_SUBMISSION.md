@@ -1,12 +1,14 @@
 # 参赛材料与提交清单
 
-状态：GitHub 发布准备完成；官方报名尚未提交。代码公开不等于报名成功。
+状态：GitHub 已公开发布；官方报名尚未提交。代码公开不等于报名成功。
 
 ## 项目信息
 
 - 项目名称：M·SPACE — 麦当劳灵感工作台
 - 项目地址：https://github.com/jacksonlam138-hub/mspace-workbench
 - 默认分支：main
+- 首个完整源码提交：`7e3d063cc6440be2eb1831aebb5644923f8f81f9`。
+- 远端核验：Public / main / 95 文件逐项 blob SHA 一致。
 - 发布证据：见 `PUBLISH_AUDIT.md` 和 GitHub 提交记录。
 
 ## Issue 文案草稿
