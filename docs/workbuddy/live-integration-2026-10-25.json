@@ -1,0 +1,56 @@
+{
+  "source": "WorkBuddy live integration via app/server/mcp-adapter.mjs (read-only)",
+  "checkedAt": "2026-10-24T17:45:18.507Z",
+  "note": "脱敏证据：不含 Token、账户、地址、订单、traceId。原文已解析为结构化数据。",
+  "checks": [
+    {
+      "name": "initialize + tools/list",
+      "ok": true,
+      "toolCount": 35,
+      "at": "2026-10-24T17:45:18.507Z"
+    },
+    {
+      "name": "now-time-info",
+      "ok": true,
+      "businessDate": "2026-10-25",
+      "timezone": "GMT+08:00",
+      "at": "2026-10-24T17:45:18.507Z"
+    },
+    {
+      "name": "campaign-calendar",
+      "ok": true,
+      "parsed": {
+        "dateGroups": 10,
+        "uniqueEvents": 14,
+        "crossDayEvents": 10,
+        "sampleTitle": "麦当劳「我就喜欢」限定丝巾正式开售",
+        "sampleDays": [
+          "2026-10-25",
+          "2026-10-30"
+        ]
+      },
+      "at": "2026-10-24T17:45:18.507Z"
+    },
+    {
+      "name": "list-nutrition-foods",
+      "ok": true,
+      "parsed": {
+        "rows": 160,
+        "deduped": 158,
+        "sample": {
+          "productName": "板烧鸡腿堡",
+          "energyKcal": 391,
+          "protein": 23
+        }
+      },
+      "at": "2026-10-24T17:45:18.507Z"
+    }
+  ],
+  "uiVerified": [
+    "calendar: month grid dots from live days (Oct=5, Nov=5), event rows with date groups, server date shown",
+    "nutrition: combo c1 uses real 391+53+32=476 kcal, price marked unlinked",
+    "new products: leads extracted from live campaigns with source titles",
+    "agent: matrix shows 35 live tools, now-time-info trial ok, chat direct-tool returns real time"
+  ],
+  "writesExecuted": false
+}

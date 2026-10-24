@@ -1,0 +1,73 @@
+{
+  "checkedAt": "2026-10-24T17:11:36.836Z",
+  "testContext": "Public Beijing Wangfujing store for read-only acceptance, not user location or purchase intent",
+  "context": {
+    "storeCode": "1950526",
+    "orderType": 1,
+    "beType": 1,
+    "reservationDate": "2026-10-25 12:00"
+  },
+  "menu": {
+    "success": true,
+    "code": 200,
+    "categoryCount": 15,
+    "mealCount": 95,
+    "newTaggedProductCount": 13,
+    "newTaggedSamples": [
+      {
+        "code": "9900016076",
+        "name": "“我就喜欢”鸡薯双全盒",
+        "tags": [
+          "上新"
+        ]
+      },
+      {
+        "code": "9900015726",
+        "name": "韩式甜辣酱鸡块8块",
+        "tags": [
+          "上新"
+        ]
+      },
+      {
+        "code": "9900016075",
+        "name": "龙焰芝士棒鸡腿堡三件套",
+        "tags": [
+          "上新"
+        ]
+      }
+    ]
+  },
+  "detail": {
+    "success": true,
+    "code": 200,
+    "keys": [
+      "code",
+      "name",
+      "rounds",
+      "image",
+      "modification",
+      "supportModify"
+    ],
+    "name": "板烧鸡腿堡"
+  },
+  "quote": {
+    "success": true,
+    "code": 200,
+    "keys": [
+      "productOriginalPrice",
+      "productPrice",
+      "originalPrice",
+      "discount",
+      "price",
+      "productList",
+      "takeWayList"
+    ],
+    "priceFields": {
+      "productOriginalPrice": 7050,
+      "productPrice": 7050,
+      "originalPrice": 7050,
+      "price": 7050
+    }
+  },
+  "writesExecuted": false
+}

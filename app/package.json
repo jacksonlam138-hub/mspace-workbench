@@ -1,0 +1,36 @@
+{
+  "name": "mspace-workbench",
+  "private": true,
+  "version": "0.2.0",
+  "type": "module",
+  "engines": {
+    "node": ">=22 <23",
+    "pnpm": ">=10.0.0"
+  },
+  "packageManager": "pnpm@10.34.6",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 10241",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview --host 127.0.0.1 --port 10242",
+    "test": "vitest run",
+    "test:server": "node --test server/mcp-adapter.test.mjs server/mcp-adapter.reliability.test.mjs server/mcp-adapter.acceptance.test.mjs server/agent.test.mjs",
+    "typecheck": "tsc --noEmit",
+    "mcp:server": "node server/mcp-adapter.mjs",
+    "verify": "pnpm typecheck && pnpm test && pnpm test:server && pnpm build",
+    "test:agent": "node --test server/agent.test.mjs"
+  },
+  "dependencies": {
+    "ajv": "^8.20.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.49.0",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.4",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.11",
+    "vitest": "^2.1.8"
+  }
+}

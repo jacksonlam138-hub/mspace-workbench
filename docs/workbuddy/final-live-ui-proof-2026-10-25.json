@@ -1,0 +1,55 @@
+{
+  "date": "2026-10-25",
+  "method": "Codex CUA browser interactions; summaries of observed UI, not raw MCP capture",
+  "storeCode": "1950526",
+  "reservationDate": "2026-10-25 12:00",
+  "readOnly": true,
+  "menuCount": 95,
+  "newTags": 13,
+  "newQuoteCents": 1590,
+  "nutrition": {
+    "label": "板烧鸡腿堡 + 小杯玉米杯",
+    "kcal": 444,
+    "proteinGrams": 25,
+    "quoteCents": 3650
+  },
+  "mysteryQuotes": [
+    {
+      "items": [
+        "酥酥多笋卷 ×1",
+        "纯悦 ×1"
+      ],
+      "cents": 2850
+    },
+    {
+      "items": [
+        "牛肉堡单品精选 ×1",
+        "中薯条 ×1"
+      ],
+      "cents": 2850
+    }
+  ],
+  "team": {
+    "totalBudgetInput": "",
+    "people": 6,
+    "perPersonYuan": 30,
+    "items": [
+      "麦辣鸡腿汉堡 ×6",
+      "纯悦 ×6"
+    ],
+    "quoteCents": 18000
+  },
+  "agent": {
+    "prompt": "附近门店",
+    "completedFields": {
+      "beType": 1,
+      "city": "北京",
+      "keyword": "王府井",
+      "searchType": 2
+    },
+    "returnedStores": 5
+  },
+  "reminderRefreshPersists": true,
+  "reminderCancelVerified": true,
+  "externalModelVerified": false
+}

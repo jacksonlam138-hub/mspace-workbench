@@ -1,0 +1,29 @@
+{
+  "checkedAt": "2026-10-24T17:36:56.107Z",
+  "adapterCommit": "f6d73a0",
+  "mode": "live",
+  "toolCount": 35,
+  "calls": [
+    {
+      "name": "now-time-info",
+      "httpStatus": 200,
+      "ok": true,
+      "isError": false,
+      "nonemptyText": true
+    },
+    {
+      "name": "campaign-calendar",
+      "httpStatus": 200,
+      "ok": true,
+      "isError": false,
+      "nonemptyText": true
+    },
+    {
+      "name": "list-nutrition-foods",
+      "httpStatus": 200,
+      "ok": true,
+      "isError": false,
+      "nonemptyText": true
+    }
+  ]
+}

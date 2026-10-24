@@ -1,0 +1,4 @@
+# pnpm run must use the declared runtime, even when pnpm itself bundles another Node.
+useNodeVersion: 22.23.4
+onlyBuiltDependencies:
+  - esbuild

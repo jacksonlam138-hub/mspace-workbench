@@ -1,0 +1,58 @@
+{
+  "source": "Codex independent calls to official read-only MCP tools",
+  "endpoint": "https://mcp.mcd.cn",
+  "toolCount": 35,
+  "checks": [
+    {
+      "name": "now-time-info",
+      "checkedAt": "2026-10-24T17:04:28.373Z",
+      "isError": false,
+      "businessCode": 200,
+      "businessSuccess": true,
+      "format": "JSON embedded after Markdown documentation",
+      "date": "2026-10-25"
+    },
+    {
+      "name": "campaign-calendar",
+      "checkedAt": "2026-10-24T17:04:28.931Z",
+      "isError": false,
+      "format": "Markdown grouped by date, with labelled titles, descriptions and img elements",
+      "dateGroups": [
+        "2026年10月25日 今日",
+        "2026年10月26日",
+        "2026年10月28日",
+        "2026年10月30日",
+        "2026年10月31日",
+        "2026年11月1日",
+        "2026年11月2日",
+        "2026年11月3日",
+        "2026年11月11日",
+        "2026年11月12日"
+      ],
+      "titleCount": 24,
+      "sampleTitles": [
+        "麦当劳「我就喜欢」限定丝巾正式开售🔥",
+        "韩式风味蘸酱上新❤️就「酱」心有所「薯」",
+        "麦当劳 X PEACEMINUSONE"
+      ]
+    },
+    {
+      "name": "list-nutrition-foods",
+      "checkedAt": "2026-10-24T17:04:29.204Z",
+      "isError": false,
+      "businessCode": 200,
+      "businessSuccess": true,
+      "format": "JSON embedded after Markdown documentation; data is a TOON-like text table",
+      "header": "[160]{productName,nutritionDescription,energyKj,energyKcal,protein,fat,carbohydrate,sodium,calcium}:",
+      "rowCount": 160,
+      "exampleRows": [
+        "小杯玉米杯,null,223,53,2,1,7,1,6",
+        "板烧鸡腿堡,null,1638,391,23,17,35,1041,93",
+        "无糖可口可乐中杯,null,0,0,0,0,1,35,0",
+        "小杯玉米杯,null,223,53,2,1,7,1,6"
+      ]
+    }
+  ],
+  "writesExecuted": false,
+  "uiIntegrationVerified": false
+}

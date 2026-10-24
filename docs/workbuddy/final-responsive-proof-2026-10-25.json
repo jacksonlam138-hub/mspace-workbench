@@ -1,0 +1,174 @@
+{
+  "source": "Codex CUA live UI",
+  "checkedAt": "2026-10-24T18:32:22.553Z",
+  "results": [
+    {
+      "module": "活动日历",
+      "scroll": 375,
+      "side": 82,
+      "title": "活动日历",
+      "width": 375
+    },
+    {
+      "module": "新品推荐",
+      "scroll": 375,
+      "side": 82,
+      "title": "新品推荐",
+      "width": 375
+    },
+    {
+      "module": "营养套餐",
+      "scroll": 375,
+      "side": 82,
+      "title": "营养套餐",
+      "width": 375
+    },
+    {
+      "module": "盲盒推荐",
+      "scroll": 375,
+      "side": 82,
+      "title": "盲盒推荐",
+      "width": 375
+    },
+    {
+      "module": "团餐选择",
+      "scroll": 375,
+      "side": 82,
+      "title": "团餐选择",
+      "width": 375
+    },
+    {
+      "module": "MAgent",
+      "scroll": 375,
+      "side": 82,
+      "title": "MAgent",
+      "width": 375
+    },
+    {
+      "module": "活动日历",
+      "scroll": 390,
+      "side": 82,
+      "title": "活动日历",
+      "width": 390
+    },
+    {
+      "module": "新品推荐",
+      "scroll": 390,
+      "side": 82,
+      "title": "新品推荐",
+      "width": 390
+    },
+    {
+      "module": "营养套餐",
+      "scroll": 390,
+      "side": 82,
+      "title": "营养套餐",
+      "width": 390
+    },
+    {
+      "module": "盲盒推荐",
+      "scroll": 390,
+      "side": 82,
+      "title": "盲盒推荐",
+      "width": 390
+    },
+    {
+      "module": "团餐选择",
+      "scroll": 390,
+      "side": 82,
+      "title": "团餐选择",
+      "width": 390
+    },
+    {
+      "module": "MAgent",
+      "scroll": 390,
+      "side": 82,
+      "title": "MAgent",
+      "width": 390
+    },
+    {
+      "module": "活动日历",
+      "scroll": 430,
+      "side": 82,
+      "title": "活动日历",
+      "width": 430
+    },
+    {
+      "module": "新品推荐",
+      "scroll": 430,
+      "side": 82,
+      "title": "新品推荐",
+      "width": 430
+    },
+    {
+      "module": "营养套餐",
+      "scroll": 430,
+      "side": 82,
+      "title": "营养套餐",
+      "width": 430
+    },
+    {
+      "module": "盲盒推荐",
+      "scroll": 430,
+      "side": 82,
+      "title": "盲盒推荐",
+      "width": 430
+    },
+    {
+      "module": "团餐选择",
+      "scroll": 430,
+      "side": 82,
+      "title": "团餐选择",
+      "width": 430
+    },
+    {
+      "module": "MAgent",
+      "scroll": 430,
+      "side": 82,
+      "title": "MAgent",
+      "width": 430
+    },
+    {
+      "module": "活动日历",
+      "scroll": 1440,
+      "side": 228,
+      "title": "活动日历",
+      "width": 1440
+    },
+    {
+      "module": "新品推荐",
+      "scroll": 1440,
+      "side": 228,
+      "title": "新品推荐",
+      "width": 1440
+    },
+    {
+      "module": "营养套餐",
+      "scroll": 1440,
+      "side": 228,
+      "title": "营养套餐",
+      "width": 1440
+    },
+    {
+      "module": "盲盒推荐",
+      "scroll": 1440,
+      "side": 228,
+      "title": "盲盒推荐",
+      "width": 1440
+    },
+    {
+      "module": "团餐选择",
+      "scroll": 1440,
+      "side": 228,
+      "title": "团餐选择",
+      "width": 1440
+    },
+    {
+      "module": "MAgent",
+      "scroll": 1440,
+      "side": 228,
+      "title": "MAgent",
+      "width": 1440
+    }
+  ]
+}
